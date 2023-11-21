@@ -93,7 +93,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'githubwebappdemo'
+          app-name: 'demoappgithub'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3CF79FEDEB414197949DCC06CFF9573D }}
           package: .

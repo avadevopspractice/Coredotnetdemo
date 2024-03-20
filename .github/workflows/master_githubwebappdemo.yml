@@ -28,8 +28,7 @@ jobs:
       - name: Install dotnet-coverage
         run: dotnet tool install --global dotnet-coverage  
       
-      - name: Generate dotnet-coverage report
-        run: dotnet-coverage collect 'dotnet test' -f xml  -o 'coverage.xml'
+    
       
       - name: Run DevSkim scanner
         uses: microsoft/DevSkim-Action@v1

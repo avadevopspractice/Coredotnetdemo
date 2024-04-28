@@ -1,1 +1,2 @@
-docker_personal_access_token : cGFzc3dvcmQK
+azure_devops_personal_access_token 
+KGpPN2oodUVaTUp2dHtxNlJNTnhTcDV5ZUszSlEw0

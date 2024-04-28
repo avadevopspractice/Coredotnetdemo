@@ -36,3 +36,12 @@ spec:
   - port: 80
   selector:
      k8s-app: coredotnetmultidockerdemo
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysecret
+type: Opaque
+data:
+  username: YWRtaW4K
+  password: cGFzc3dvcmQK
